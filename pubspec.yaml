@@ -1,0 +1,99 @@
+name: strive_beike
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  # flutter_search_bar: ^2.0.7
+  loader_search_bar: ^1.0.3+1
+  dio: ^1.0.13
+  json_annotation: ^0.2.3
+  # banner_view: "^1.1.2"
+  cached_network_image: ^0.5.1
+  flutter_swiper: ^1.1.4
+  flutter_screenutil: ^0.4.6
+  color: ^2.1.1
+  rxdart: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^0.5.4
+  build_runner:
+    
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - lib/static/images/bottomBarIcon/tabBtnNormal_0@2x.png
+   - lib/static/images/bottomBarIcon/tabBtnNormal_1@2x.png
+   - lib/static/images/bottomBarIcon/tabBtnNormal_2@2x.png
+   - lib/static/images/bottomBarIcon/tabBtnNormal_3@2x.png
+
+   - lib/static/images/bottomBarIcon/tabBtnSelected_0@2x.png
+   - lib/static/images/bottomBarIcon/tabBtnSelected_1@2x.png
+   - lib/static/images/bottomBarIcon/tabBtnSelected_2@2x.png
+   - lib/static/images/bottomBarIcon/tabBtnSelected_3@2x.png
+   - lib/static/images/HomeImages/icon_card_location_mark_1@2x.png
+   - lib/static/images/HomeImages/icon_card_location_mark_1@3x.png
+
+   - lib/static/images/imgSrc/food.jpeg
+   - lib/static/images/HomeImages/home_activity_bg_1_big@2x.png
+   - lib/static/images/HomeImages/home_activity_bg_2@2x.png
+   - lib/static/images/HomeImages/home_activity_bg_3@2x.png
+   - lib/static/images/HomeImages/goodsItem_store@2x.png
+   - lib/static/images/HomeImages/nextGray@2x.png
+   - lib/static/images/HomeImages/leftBack@2x.png
+   - lib/static/images/HomeImages/goods_category_list_cart@2x.png
+   - lib/static/images/HomeImages/goods_category_list_search@2x.png
+   
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
